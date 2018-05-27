@@ -1,12 +1,12 @@
 import datetime
 import numpy as np
 
-from backtest import Backtest
-from data import HistoricCSVDataHandler
-from event import SignalEvent
-from execution import SimulatedExecutionHandler
-from portfolio import Portfolio
-from strategy import Strategy
+from lecture_code_08.backtest import Backtest
+from lecture_code_08.data import HistoricCSVDataHandler
+from lecture_code_08.event import SignalEvent
+from lecture_code_08.execution import SimulatedExecutionHandler
+from lecture_code_08.portfolio import Portfolio
+from lecture_code_08.strategy import Strategy
 
 
 class MovingAverageCrossStrategy(Strategy):

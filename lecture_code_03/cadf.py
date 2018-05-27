@@ -88,7 +88,7 @@ if __name__ == "__main__":
     # beta_hr = res.fittedvalues
 
     # Calculate the residuals of the linear combination
-    df["res"] = df[TICKER_A] - beta_hr*df[TICKER_A]
+    df["res"] = df[TICKER_A] - beta_hr*df[TICKER_B]
 
     # Plot the residuals
     plot_residuals(df, start, end)
